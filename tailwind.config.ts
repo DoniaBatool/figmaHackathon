@@ -11,7 +11,14 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        mytext: '#2A254B',
       },
+      fontFamily: {
+        clash: ['Clash Display', 'sans-serif'], // Define Clash Display font
+        satoshi: ['Satoshi', 'sans-serif'],    // Satoshi font
+       
+      },
+
     },
   },
   plugins: [],
