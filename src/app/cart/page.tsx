@@ -17,10 +17,10 @@ const Cartpage = () => {
       <div className='pt-[64px] ml-[160px]'>
        <h1 className='font-clash text-[36px] leading-[140%] text-mytext'>Your shopping cart</h1>
        </div>
-       <div className='flex mt-[50px]'>
-       <div className='ml-[150px]'>Product</div>
-       <div className='ml-[550px]'>Quantity</div>
-       <div className='ml-[350px]'>Total</div>
+       <div className='flex mt-[50px] text-[14px] leading-[140%] font-clash text-mytext'>
+       <div className='ml-[150px]'><h6>Product</h6></div>
+       <div className='ml-[550px]'><h6>Quantity</h6></div>
+       <div className='ml-[350px]'><h6>Total</h6></div>
        </div>
        <br/>
        
@@ -33,14 +33,14 @@ const Cartpage = () => {
         <Image src="/cart/Product1.png" alt="product image" width={109} height={134}/>
         </div>
         <div>
-            <h4>Graystone vase</h4>
-            <p>A timeless ceramic vase with<br/>
+            <h4 className='text-mytext font-clash text-[20px] leading-[140%]'>Graystone vase</h4>
+            <p className='text-[14px] leading-[150%] font-satoshi text-mytext'>A timeless ceramic vase with<br/>
             a tri color grey glaze.</p>
-            <p>£85</p>
+            <p  className='text-[14px] leading-[150%] font-satoshi text-mytext'>£85</p>
         </div>
        </div>
-       <div className='ml-[313px]'>1</div>
-       <div className='ml-[360px]'>&pound;85</div>
+       <div className='ml-[300px] font-satoshi text-[16px] text-slate-500 flex gap-6'><div>-</div> <p className='text-[16px] font-satoshi text-mytext'>1</p> <div>+</div> </div>
+       <div className='ml-[320px] text-[18px] font-satoshi text-mytext'>&pound;85</div>
        </div>
    <br/>
        <div className='flex ml-[150px]'>
@@ -49,14 +49,14 @@ const Cartpage = () => {
         <Image src="/cart/Product2.png" alt="product image" width={109} height={134}/>
         </div>
         <div>
-            <h4>Basic white vase</h4>
-            <p>Beautiful and simple this is<br/>
+            <h4 className='text-mytext font-clash text-[20px] leading-[140%]'>Basic white vase</h4>
+            <p className='text-[14px] leading-[150%] font-satoshi text-mytext'>Beautiful and simple this is<br/>
             one for the classics</p>
-            <p>£85</p>
+            <p className='text-[14px] leading-[150%] font-satoshi text-mytext'>£85</p>
         </div>
        </div>
-       <div className='ml-[326px]'>1</div>
-       <div className='ml-[360px]'>&pound;125</div>
+       <div className='ml-[313px] font-satoshi text-[16px] text-slate-500 flex gap-6'><div>-</div> <p className='text-[16px] font-satoshi text-mytext'>1</p> <div>+</div> </div>
+       <div className='ml-[320px] text-[18px] font-satoshi text-mytext'>&pound;125</div>
        </div>
        <br/>
       <div className="w-[1064px] border border-[#EBE8F4] mx-auto "></div>
@@ -71,7 +71,7 @@ const Cartpage = () => {
         </div>
         <div>
             <button className='text-white text-[16px] font-satoshi leading-[150%] cursor-pointer 
-            px-[32px] bg-mytext py-[16px]'>
+            px-[32px] bg-mytext py-[16px] hover:border hover:border-[#4E4D93]'>
                 Go to checkout</button>
         </div>
       </div>

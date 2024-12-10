@@ -22,19 +22,19 @@ const Footer = () => {
               <Link href={"/"}>Menu</Link>
             </li>
             <li>
-              <Link href={"/"}>New arrivals</Link>
+              <Link href={"/products"}>New arrivals</Link>
             </li>
             <li>
-              <Link href={"/"}>Best sellers</Link>
+              <Link href={"/products/1"}>Best sellers</Link>
             </li>
             <li>
-              <Link href={"/"}>Recently viewed</Link>
+              <Link href={"/cart"}>Recently viewed</Link>
             </li>
             <li>
-              <Link href={"/"}>Popular this week</Link>
+              <Link href={"/products/1"}>Popular this week</Link>
             </li>
             <li>
-              <Link href={"/"}>All products</Link>
+              <Link href={"/products"}>All products</Link>
             </li>
           </ul>
         </div>
@@ -42,25 +42,25 @@ const Footer = () => {
         <div>
           <ul className="flex flex-col gap-[12px]">
             <li className="font-clash text-[16px]">
-              <Link href={"/"}>Categories</Link>
+              <Link href={"/products"}>Categories</Link>
             </li>
             <li>
-              <Link href={"/"}>Categories</Link>
+              <Link href={"/products/1"}>Categories</Link>
             </li>
             <li>
-              <Link href={"/"}>New arrivals</Link>
+              <Link href={"/products"}>New arrivals</Link>
             </li>
             <li>
-              <Link href={"/"}>Best sellers</Link>
+              <Link href={"/products/1"}>Best sellers</Link>
             </li>
             <li>
-              <Link href={"/"}>Recently viewed</Link>
+              <Link href={"/cart"}>Recently viewed</Link>
             </li>
             <li>
-              <Link href={"/"}>Popular this week</Link>
+              <Link href={"/products/1"}>Popular this week</Link>
             </li>
             <li>
-              <Link href={"/"}>All products</Link>
+              <Link href={"/products"}>All products</Link>
             </li>
           </ul>
         </div>
@@ -71,19 +71,19 @@ const Footer = () => {
               <Link href={"/"}>Our company</Link>
             </li>
             <li>
-              <Link href={"/"}>New arrivals</Link>
+              <Link href={"/products"}>New arrivals</Link>
             </li>
             <li>
-              <Link href={"/"}>Best sellers</Link>
+              <Link href={"/products/1"}>Best sellers</Link>
             </li>
             <li>
-              <Link href={"/"}>Recently viewed</Link>
+              <Link href={"/cart"}>Recently viewed</Link>
             </li>
             <li>
-              <Link href={"/"}>Popular this week</Link>
+              <Link href={"/products/1"}>Popular this week</Link>
             </li>
             <li>
-              <Link href={"/"}>All products</Link>
+              <Link href={"/products"}>All products</Link>
             </li>
           </ul>
         </div>
@@ -96,7 +96,7 @@ const Footer = () => {
               <Link href={"/"}>Join our mailing list</Link>
             </li>
             <li>
-              <div className="flex w-[509px] h-[56px]">
+              <div className="flex w-[509px] h-[56px] border border-[#4E4D93]">
                 <input
                   type="text"
                   placeholder="your@email.com"

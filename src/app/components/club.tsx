@@ -18,15 +18,15 @@ const Club = () => {
           </div>
   
           {/* Input and Button */}
-          <div className="ml-[350px] mt-[70px] flex">
+          <div className="ml-[350px] mt-[70px] flex text-black">
             <input
               type="text"
               placeholder="your@email.com"
-              className="w-[354px] h-[56px] bg-[#F9F9F9]/100 font-satoshi text-[16px] text-[#F9F9F9]/20 pl-[32px]"
+              className="w-[354px] h-[56px] bg-[#F9F9F9]/100 font-satoshi text-[16px] text-mytext pl-[32px] border border-[#4E4D93]"
             />
             <button
               type="submit"
-              className="w-[118px] h-[56px] text-white font-satoshi text-[16px] leading-[150%] bg-mytext"
+              className="w-[118px] h-[56px] text-white font-satoshi text-[16px] leading-[150%] bg-mytext border border-[#4E4D93]"
             >
               Sign up
             </button>

@@ -2,7 +2,7 @@ import Image from "next/image"
 
 const Sectionlast = () => {
   return (
-    <section className="flex max-w-[1440px] h-[568px]">
+    <section className="flex max-w-[1440px] h-[567px]">
         
          <div className="flex flex-col gap-[25px]  mt-[72px] mx-20 w-[536px] h-[225px] text-nowrap">
             <p className="font-clash leading-[140%] text-[24px] text-mytext ">From a studio in London to a global brand with<br/>
@@ -16,8 +16,8 @@ const Sectionlast = () => {
              px-[32px] py-[16px] text-[16px] font-satoshi leading-[150%] text-mytext"> Get in touch</button>
          </div>
     
-      <div>
-        <Image src="/lastsec/last.png" alt="image" width={720} height={603} className="ml-[100px]"/>
+      <div className="w-[720px]">
+        <Image src="/lastsec/last.png" alt="image" width={720} height={430} className="ml-[100px] "/>
       </div>
     </section>
   )

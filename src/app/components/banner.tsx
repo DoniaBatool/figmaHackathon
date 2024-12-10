@@ -6,8 +6,8 @@ const Banner = () => {
     <div className="w-[1200px] mx-auto flex mt-[80px] bg-[#2A254B] h-[545px] justify-between items-center">
       {/* Left side */}
       <div className="p-8 w-[760px]">
-        <div className="flex flex-col gap-[41px] w-[513px] h-[187px]">
-          <h2 className="text-[32px] text-white leading-[140%] font-clash">
+        <div className="flex flex-col gap-[41px] w-[513px] h-[187px] ">
+          <h2 className="text-[32px]  text-white leading-[140%] font-clash">
             The furniture brand for the <br />
             future, with timeless designs
           </h2>
@@ -29,7 +29,8 @@ const Banner = () => {
           </p>
         </div>
       </div>
-      <div className='w-[520px]'>
+      {/*right side*/}
+      <div className='w-[520px] hidden sm:flex'>
         <Image src="/hero/chairhero.png" alt="chair" width={520} height={584} />
       </div>
     </div>

@@ -14,11 +14,9 @@ const config: Config = {
         mytext: '#2A254B',
       },
       fontFamily: {
-        clash: ['Clash Display', 'sans-serif'], // Define Clash Display font
-        satoshi: ['Satoshi', 'sans-serif'],    // Satoshi font
-       
+        clash: ['Clash Display', 'sans-serif'],
+        satoshi: ['Satoshi', 'sans-serif'],
       },
-
     },
   },
   plugins: [],

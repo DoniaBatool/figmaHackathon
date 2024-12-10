@@ -12,25 +12,28 @@ import Topbar from "./components/topbar";
 
 export default function Home() {
   return (
-    <div className="max-w-[1440px] mx-auto ">
-      <div className="max-w-[1386px] mx-auto">
+    <div className="max-w-[1440px] mx-auto   ">
+      <div className="max-w-[1386px] mx-auto ">
       <Topbar/>
       <Divider/>
-      </div>
       <Navbar/>
-      <div className="w-[1200px] mx-auto">
+      </div>
+    
+      <div className="w-[1200px] mx-auto ">
       <Banner/>
-     
-     <Feature/>
+      <Feature/>
      <Ceramics/>
      <PopularProducts/>
-     </div>
      
-    
+     
+     </div>
      <Club/>
      <Sectionlast/>
-     
      <Footer/>
+    
+     
+     
+     
      
     </div>
   );
