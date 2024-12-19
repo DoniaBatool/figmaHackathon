@@ -1,8 +1,8 @@
-import React from 'react'
+
 
 const Divider = () => {
   return (
-    <div className="hidden md:flex max-w-[1386px] border border-[#000000]/10 mx-7">
+    <div className="hidden md:block max-w-[1386px] border border-[#000000]/10 mx-auto">
 
     </div>
   )

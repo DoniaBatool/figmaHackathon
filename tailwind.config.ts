@@ -17,6 +17,9 @@ const config: Config = {
         clash: ['Clash Display', 'sans-serif'],
         satoshi: ['Satoshi', 'sans-serif'],
       },
+      screens: {
+        xs: '410px',
+      },
     },
   },
   plugins: [],
