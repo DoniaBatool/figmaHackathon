@@ -9,7 +9,7 @@ const SingleProduct = () => {
     <main>
       
       <Navbar/>
-      <div className="hidden sm:flex sm:flex-col md:flex-row max-w-[1440px] w-full mx-auto ">
+      <div className="flex flex-col md:flex-row max-w-[1440px] w-full mx-auto">
   {/* Left div (Main Image) */}
   <div className="w-full">
   <Image
@@ -68,8 +68,8 @@ const SingleProduct = () => {
     </div>
 
     {/* Amount and Add to Cart */}
-    <div className="flex gap-[5px] sm:gap-[100px] md:gap-[40px] items-center ">
-      <div className="flex gap-[5px] sm:gap-[50px] md:gap-[20px] items-center">
+    <div className="flex flex-col xs:flex-row gap-[5px] sm:gap-[100px] md:gap-[40px] items-center  ">
+      <div className="flex gap-[5px] sm:gap-[50px] md:gap-[20px] items-center mb-3 xs:mb-0">
         <p className="font-clash text-[16px] text-mytext">Amount</p>
         <div className="flex gap-[30px] w-[122px] h-[46px] cursor-pointer px-[16px] py-[12px] bg-[#F9F9F9] hover:border hover:border-[#4E4D93]">
           <p className="font-satoshi text-[18px] text-[#CAC6DA]">+</p>
@@ -77,7 +77,7 @@ const SingleProduct = () => {
           <p className="font-satoshi text-[18px] text-[#CAC6DA]">-</p>
         </div>
       </div>
-      <button className="w-[143px] h-[46px] px-[16px] py-[12px] bg-mytext  text-white font-satoshi leading-[150%] text-[16px] border border-[#4E4D93] text-nowrap">Add to cart</button>
+      <button className="w-full h-[46px]  xs:w-[143px] px-[16px] py-[12px] bg-mytext  text-white font-satoshi leading-[150%] text-[16px] border border-[#4E4D93] text-nowrap">Add to cart</button>
     </div>
   </div>
 </div>

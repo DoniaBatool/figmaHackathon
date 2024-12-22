@@ -67,6 +67,8 @@ const Topbar = () => {
       {/* Navbar (Hidden on Mobile, Visible on Desktop) */}
       <nav className="hidden md:block relative w-full max-w-[675px] mx-auto my-5">
         <ul className="flex justify-between text-[#726E8D]/100 text-[16px] font-satoshi">
+        <Link href="/"><li>Home</li></Link>
+        <Link href="/about"><li>About</li></Link>
           <Link href="/products"><li>Plant pots</li></Link>
           <Link href="/products"><li>Ceramics</li></Link>
           <Link href="/products"><li>Tables</li></Link>
@@ -81,6 +83,8 @@ const Topbar = () => {
       {menuOpen && (
         <nav className="md:hidden bg-gray-100 px-5 py-4">
           <ul className="flex flex-col gap-4 text-[#726E8D]/100 text-[16px] font-satoshi">
+          <Link href="/"><li onClick={() => setMenuOpen(false)}>Home</li></Link>
+          <Link href="/about"><li onClick={() => setMenuOpen(false)}>About</li></Link>
             <Link href="/products"><li onClick={() => setMenuOpen(false)}>Plant pots</li></Link>
             <Link href="/products"><li onClick={() => setMenuOpen(false)}>Ceramics</li></Link>
             <Link href="/products"><li onClick={() => setMenuOpen(false)}>Tables</li></Link>

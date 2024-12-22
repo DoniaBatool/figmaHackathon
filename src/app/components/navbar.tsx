@@ -7,6 +7,7 @@ import { IoCartOutline } from "react-icons/io5";
 import { RxAvatar } from "react-icons/rx";
 import { HiOutlineMenu, HiOutlineX } from "react-icons/hi";
 import Banner from "./Banneridpage";
+import { FaHome } from "react-icons/fa";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false); // State to control mobile menu
@@ -21,17 +22,6 @@ const Navbar = () => {
         <Link href="/">
           <p className="text-2xl text-[#22202E] font-clash cursor-pointer">Avion</p>
         </Link>
-
-        {/* Desktop Menu */}
-        <nav className="hidden md:flex space-x-6 text-[#726E8D]/100 text-base font-satoshi">
-          <Link href="/products"><span className="cursor-pointer">Plant pots</span></Link>
-          <Link href="/products"><span className="cursor-pointer">Ceramics</span></Link>
-          <Link href="/products"><span className="cursor-pointer">Tables</span></Link>
-          <Link href="/products/2"><span className="cursor-pointer">Chairs</span></Link>
-          <Link href="/products"><span className="cursor-pointer">Crockery</span></Link>
-          <Link href="/products"><span className="cursor-pointer">Tableware</span></Link>
-          <Link href="/products"><span className="cursor-pointer">Cutlery</span></Link>
-        </nav>
 
         {/* Right Icons */}
         <div className="flex items-center gap-5">
@@ -59,10 +49,44 @@ const Navbar = () => {
         </div>
       </div>
 
+        {/* Desktop Menu */}
+        <nav className="hidden md:flex space-x-6 text-[#726E8D]/100 text-base  md:justify-center font-satoshi mb-[50px]">
+        <Link href="/">
+    <span className="cursor-pointer flex items-center space-x-2">
+      <FaHome className="text-lg" />
+      
+    </span>
+  </Link>
+        <Link href="/about"><span className="cursor-pointer">About</span></Link>
+          <Link href="/products"><span className="cursor-pointer">Plant pots</span></Link>
+          <Link href="/products"><span className="cursor-pointer">Ceramics</span></Link>
+          <Link href="/products"><span className="cursor-pointer">Tables</span></Link>
+          <Link href="/products/2"><span className="cursor-pointer">Chairs</span></Link>
+          <Link href="/products"><span className="cursor-pointer">Crockery</span></Link>
+          <Link href="/products"><span className="cursor-pointer">Tableware</span></Link>
+          <Link href="/products"><span className="cursor-pointer">Cutlery</span></Link>
+        </nav>
+
       {/* Mobile Menu */}
       {menuOpen && (
         <nav className="md:hidden bg-white shadow-lg">
           <ul className="flex flex-col space-y-4 p-4">
+          <Link href="/">
+              <li
+                className="text-base font-satoshi text-mytext cursor-pointer"
+                onClick={() => setMenuOpen(false)}
+              >
+                Home
+              </li>
+            </Link>
+            <Link href="/about">
+              <li
+                className="text-base font-satoshi text-mytext cursor-pointer"
+                onClick={() => setMenuOpen(false)}
+              >
+                About
+              </li>
+            </Link>
             <Link href="/products">
               <li
                 className="text-base font-satoshi text-mytext cursor-pointer"

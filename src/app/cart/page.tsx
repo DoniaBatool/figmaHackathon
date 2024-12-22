@@ -11,7 +11,7 @@ const Cartpage = () => {
         <Topbar/>
   </div>
          
-  <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8">
+  <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8 bg-[#F9F9F9]">
   <div className="max-w-[1064px] h-[1000px] md:h-[700px] mx-auto bg-[#F9F9F9]">
     {/* Header */}
     <div className="pt-8 px-4 sm:px-10">
@@ -25,7 +25,7 @@ const Cartpage = () => {
       <div className="flex-1">
         <h6>Product</h6>
       </div>
-      <div className="w-[200px] text-center">
+      <div className="w-[200px] text-center mr-[30px]">
         <h6>Quantity</h6>
       </div>
       <div className="w-[100px] text-right">

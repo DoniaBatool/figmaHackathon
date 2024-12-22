@@ -3,16 +3,17 @@
 @tailwind utilities;
 
 
-@font-face {
-    font-family: 'ClashDisplay';
-    src: url('/fonts/ClashDisplay-Variable.ttf') format('truetype');
-    font-weight: 400; /* Regular */
-    font-style: normal;
-}
 
 @font-face {
-    font-family: 'Satoshi';
-    src: url('/fonts/Satoshi-Variable.ttf') format('truetype');
-    font-weight: 300; /* Light */
+    font-family: 'Clash Display';
+    src: url('/fonts/Fonts-Clash-Display.ttf') format('truetype');
+    font-weight: normal;
     font-style: normal;
-}
+  }
+  
+  @font-face {
+    font-family: 'Satoshi';
+    src: url('/fonts/Satoshi-Fonts.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
